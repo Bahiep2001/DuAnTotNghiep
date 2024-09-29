@@ -17,5 +17,5 @@ public class NhanVienControllerTest {
     @GetMapping("/blog")
     public String demo2(){
         return  "/ogani-master/blog";
-    }
+        }
 }
