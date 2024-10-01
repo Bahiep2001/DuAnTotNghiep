@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class KichCoRepo {
+import com.example.demo.model.KichCo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface KichCoRepo extends JpaRepository<KichCo,Integer> {
 }

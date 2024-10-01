@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class GioHangRepo {
+import com.example.demo.model.GioHang;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GioHangRepo extends JpaRepository<GioHang,Integer> {
 }

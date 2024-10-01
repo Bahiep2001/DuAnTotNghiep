@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class MauSacRepo {
+import com.example.demo.model.MauSac;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MauSacRepo extends JpaRepository<MauSac,Integer> {
 }

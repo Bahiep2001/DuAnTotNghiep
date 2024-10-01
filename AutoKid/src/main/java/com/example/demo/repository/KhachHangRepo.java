@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class KhachHangRepo {
+import com.example.demo.model.KhachHang;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface KhachHangRepo extends JpaRepository<KhachHang,Integer> {
 }

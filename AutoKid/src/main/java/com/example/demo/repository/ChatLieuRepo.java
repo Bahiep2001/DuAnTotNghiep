@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class ChatLieuRepo {
+import com.example.demo.model.ChatLieu;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ChatLieuRepo extends JpaRepository<ChatLieu,Integer> {
 }

@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class ChucVuRepo {
+import com.example.demo.model.ChucVu;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ChucVuRepo extends JpaRepository<ChucVu,Integer> {
 }

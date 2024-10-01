@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class LoaiSanPhamRepo {
+import com.example.demo.model.LoaiSanPham;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LoaiSanPhamRepo extends JpaRepository<LoaiSanPham,Integer> {
 }

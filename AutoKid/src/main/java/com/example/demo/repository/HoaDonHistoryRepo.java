@@ -1,4 +1,9 @@
 package com.example.demo.repository;
 
-public class HoaDonHistoryRepo {
+import com.example.demo.model.HoaDonHistory;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+
+public interface HoaDonHistoryRepo extends JpaRepository<HoaDonHistory,Integer> {
 }

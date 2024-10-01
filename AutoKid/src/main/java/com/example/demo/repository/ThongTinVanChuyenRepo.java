@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class ThongTinVanChuyenRepo {
+import com.example.demo.model.ThongTinVanChuyen;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ThongTinVanChuyenRepo extends JpaRepository<ThongTinVanChuyen,Integer> {
 }
