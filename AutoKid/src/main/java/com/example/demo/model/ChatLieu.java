@@ -6,16 +6,21 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "ChatLieu")
+@Table(name = "chat_lieu")
 public class ChatLieu {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idChatLieu;
+    @Column(name = "id_chat_lieu")
+    private Integer id;
 
-    private String maCL;
+    @Column(name = "ma_cl")
+    private String maCl;
 
-    private String tenCL;
+    @Column(name = "ten_cl")
+    private String tenCl;
 
-    private String trangThaiCL;
+    @Column(name = "trang_thai_cl")
+    private String trangThaiCl;
 
 }

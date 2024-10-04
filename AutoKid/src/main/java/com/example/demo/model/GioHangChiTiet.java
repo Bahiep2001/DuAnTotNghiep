@@ -5,25 +5,26 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "giohangchitiet")
+@Table(name = "gio_hang_chi_tiet")
 public class GioHangChiTiet {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "IdGioHangChiTiet")
-    private Integer id_gio_hang_chi_tiet;
+    @Column(name = "id_gio_hang_chi_tiet")
+    private Integer idGioHangChiTiet;
 
     @ManyToOne
-    @JoinColumn(name = "IdSanPhamChiTiet")
-    private SanPhamChiTiet san_pham_chi_tiet;
+    @JoinColumn(name = "id_san_pham_chi_tiet")
+    private SanPhamChiTiet sanPhamChiTiet;
 
     @ManyToOne
-    @JoinColumn(name = "IdGioHang")
-    private GioHang gio_hang;
+    @JoinColumn(name = "id_gio_hang")
+    private GioHang gioHang;
 
-    @Column(name = "SoLuong")
-    private int so_luong;
+    @Column(name = "so_luong")
+    private int soLuong;
 
-    @Column(name = "DonGia")
-    private Double don_gia;
+    @Column(name = "don_gia")
+    private Double donGia;
 
 }

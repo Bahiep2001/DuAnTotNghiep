@@ -7,18 +7,24 @@ import java.util.Date;
 
 @Entity
 @Data
-@Table(name = "DanhGia")
+@Table(name = "danh_gia")
 public class DanhGia {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idDanhGia;
+    @Column(name = "id_danh_gia")
+    private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "idSanPhamChiTiet")
+    @JoinColumn(name = "id_san_pham_chi_tiet")
     private SanPhamChiTiet sanPhamChiTiet;
 
+    @Column(name = "noi_dung_danh_gia")
     private String noiDungDanhGia;
-    private Date ngayTao;
-    private Integer soSao;
 
+    @Column(name = "ngay_tao")
+    private Date ngayTao;
+
+    @Column(name = "so_sao")
+    private Integer soSao;
 }
