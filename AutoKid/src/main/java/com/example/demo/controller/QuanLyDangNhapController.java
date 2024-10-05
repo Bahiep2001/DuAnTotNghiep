@@ -16,10 +16,7 @@ public class QuanLyDangNhapController {
 
     @Autowired
     NhanVienRepo nhanVienRepo;
-    @GetMapping("")
-    public String index(){
-        return "home";
-    }
+
 
     @GetMapping("/nhan-vien")
     public List<NhanVien> list(){
