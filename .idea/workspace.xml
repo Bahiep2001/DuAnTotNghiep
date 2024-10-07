@@ -5,61 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8121d363-0fbb-4f30-ba89-68eca7b0eb79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/response/SanPhamChiTietResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/abc_green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/abc_red.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/ebike_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/ebike_white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/joybalance_blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/joybalance_pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/kidsport_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/kidsport_yellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/tải xuống (4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/xyz_green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/xyz_yellow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/controller/CustommerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/controller/CustommerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChatLieuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChatLieuRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChucVuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChucVuRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/DanhGiaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/DanhGiaRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangChiTietRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangChiTietRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonChiTietRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonChiTietRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonHistoryRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonHistoryRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhachHangRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhachHangRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhuyenMaiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhuyenMaiRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KichCoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KichCoRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/LoaiSanPhamRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/LoaiSanPhamRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/MauSacRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/MauSacRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/NhanVienRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/NhanVienRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/PhuongThucThanhToanRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/PhuongThucThanhToanRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamChiTietRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamChiTietRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThongTinVanChuyenRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThongTinVanChuyenRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThuongHieuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThuongHieuRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/service/QuanLySanPhamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/service/QuanLySanPhamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/cat-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/cat-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/cat-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/cat-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/cat-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/hero/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/hero/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/images (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/images (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/q9-xe-dap-3-banh-da-nang-cho-tre-mau-vang-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/tải xuống (8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/language.png" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/language.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +37,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/hero" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,18 +48,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="checkout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DuAnTotNghiep/demo/templates/ogani-master/checkout.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DuAnTotNghiep/demo/templates/ogani-master/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -131,6 +81,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="JavaScript Debug.checkout.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -147,6 +98,8 @@
       <workItem from="1728097989378" duration="290000" />
       <workItem from="1728136452775" duration="2082000" />
       <workItem from="1728265261574" duration="5170000" />
+      <workItem from="1728286289243" duration="5000" />
+      <workItem from="1728287993945" duration="2859000" />
     </task>
     <servers />
   </component>

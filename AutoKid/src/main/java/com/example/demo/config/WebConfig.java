@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("../../main/resources/templates/ogani-master/**")
-                .addResourceLocations("C:\\Users\\admin\\DuAnTotNghiep\\AutoKid\\src\\main\\resources\\templates\\ogani-master");
+        registry.addResourceHandler("/autokid/**")
+                .addResourceLocations("classpath:/templates/autokid/");
     }
 }
