@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 
 import com.example.demo.repository.GioHangChiTietRepo;
+import com.example.demo.repository.LoaiSanPhamRepo;
+import com.example.demo.service.QuanLySanPhamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,9 +16,18 @@ public class CustommerController {
 
     @Autowired
     GioHangChiTietRepo gioHangChiTietRepo;
+
+    @Autowired
+    QuanLySanPhamService quanLySanPhamService;
+
+    @Autowired
+    LoaiSanPhamRepo loaiSanPhamRepo;
+
     @GetMapping("")
     public String home(Model model){
         model.addAttribute("ghct", gioHangChiTietRepo.findAll());
+        model.addAttribute("sanpham", quanLySanPhamService.getAll());
+        model.addAttribute("loaisp", loaiSanPhamRepo.findAll());
     return "/ogani-master/index";
     }
 }
