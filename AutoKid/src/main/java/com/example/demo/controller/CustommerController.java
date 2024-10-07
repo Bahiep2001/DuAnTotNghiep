@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/home")
+@RequestMapping("/autokid")
 public class CustommerController {
 
     @Autowired
@@ -23,11 +23,36 @@ public class CustommerController {
     @Autowired
     LoaiSanPhamRepo loaiSanPhamRepo;
 
-    @GetMapping("")
+    @GetMapping("home")
     public String home(Model model){
         model.addAttribute("ghct", gioHangChiTietRepo.findAll());
         model.addAttribute("sanpham", quanLySanPhamService.getAll());
         model.addAttribute("loaisp", loaiSanPhamRepo.findAll());
-    return "/ogani-master/index";
+    return "/autokid/index";
+    }
+
+    @GetMapping("/shop")
+    public String showShop(){
+        return "/autokid/shop-grid";
+    }
+
+    @GetMapping("/shop-detail")
+    public String showShopDetail(){
+        return "/autokid/shop-details";
+    }
+
+    @GetMapping("/shoping-cart")
+    public String showShoppingCart(){
+        return "/autokid/shoping-cart";
+    }
+
+    @GetMapping("/checkout")
+    public String showCheckout(){
+        return "/autokid/checkout";
+    }
+
+    @GetMapping("/contact")
+    public String showContact(){
+        return "/autokid/contact";
     }
 }

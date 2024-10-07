@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="zxx" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Ogani Template" />
@@ -54,8 +54,7 @@
           <div>English</div>
           <span class="arrow_carrot-down"></span>
           <ul>
-            <li><a href="#">Spanis</a></li>
-            <li><a href="#">English</a></li>
+            <li><a href="#">Tiếng Việt</a></li>
           </ul>
         </div>
         <div class="header__top__right__auth">
@@ -64,7 +63,7 @@
       </div>
       <nav class="humberger__menu__nav mobile-menu">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a th:href="@{/home}">Home</a></li>
           <li><a href="./shop-grid.html">Shop</a></li>
           <li>
             <a href="#">Pages</a>
@@ -140,7 +139,7 @@
           <div class="col-lg-6">
             <nav class="header__menu">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a th:href="@{http://localhost:8080/autokid/home}">Home</a></li>
                 <li class="active"><a href="./shop-grid.html">Shop</a></li>
                 <li>
                   <a href="#">Pages</a>

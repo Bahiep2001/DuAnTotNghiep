@@ -74,10 +74,8 @@
                     <li><a href="./shop-details.html">Cửa hàng chi tiết</a></li>
                     <li><a href="./shoping-cart.html">Giỏ hàng</a></li>
                     <li><a href="./checkout.html">Thanh toán</a></li>
-                    <li><a href="./blog-details.html">Nhật ký chi tiết</a></li>
                 </ul>
             </li>
-            <li><a href="./blog.html">Nhật ký</a></li>
             <li><a href="./contact.html">Liên hệ</a></li>
         </ul>
     </nav>
@@ -152,10 +150,8 @@
                                 <li><a href="./shop-details.html">Cửa hàng chi tiết</a></li>
                                 <li><a href="./shoping-cart.html">Giỏ hàng</a></li>
                                 <li><a href="./checkout.html">Thanh toán</a></li>
-                                <li><a href="./blog-details.html">Chi tiết nhật ký</a></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Nhật ký</a></li>
                         <li><a href="./contact.html">Liên hệ</a></li>
                     </ul>
                 </nav>
@@ -187,14 +183,14 @@
 <section class="hero">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3" >
                 <div class="hero__categories">
-                    <div class="hero__categories__all">
+                    <div class="hero__categories__all" style="border: none">
                         <i class="fa fa-bars"></i>
                         <span>Tất cả các mặt hàng</span>
                     </div>
-                    <ul th:each="loaisp : ${loaisp}">
-                        <li><a href="#" th:text="${loaisp.tenLoai}"></a></li>
+                    <ul th:each="loaisp : ${loaisp}" >
+                        <li><a href="#" th:text="*{loaisp.tenLoai}"></a></li>
                     </ul>
                 </div>
             </div>
