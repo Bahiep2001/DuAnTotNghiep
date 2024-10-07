@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 
 import com.example.demo.repository.GioHangChiTietRepo;
+import com.example.demo.repository.GioHangRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,6 +15,10 @@ public class CustommerController {
 
     @Autowired
     GioHangChiTietRepo gioHangChiTietRepo;
+
+    @Autowired
+    GioHangRepo gioHangRepo;
+
     @GetMapping("")
     public String home(Model model){
         model.addAttribute("ghct", gioHangChiTietRepo.findAll());
