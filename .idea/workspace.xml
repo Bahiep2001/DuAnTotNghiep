@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8121d363-0fbb-4f30-ba89-68eca7b0eb79" name="Default Changelist" comment="" />
+    <list default="true" id="8121d363-0fbb-4f30-ba89-68eca7b0eb79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/controller/CustommerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/controller/CustommerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/imgs/images (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/shop-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/shop-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/shoping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/shoping-cart.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,20 +39,18 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/ogani-main",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229",
-    "vue.rearranger.settings.migration": "true"
+    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DATN\DuAnTotNghiep\AutoKid\src\main\resources\templates\ogani-master\img\hero" />
+      <recent name="D:\DATN\DuAnTotNghiep\AutoKid\src\main\resources\templates\ogani-master\img" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
@@ -58,6 +64,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="checkout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DuAnTotNghiep/demo/templates/ogani-master/checkout.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DuAnTotNghiep/demo/templates/ogani-master/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -78,6 +87,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="JavaScript Debug.checkout.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -94,7 +104,8 @@
       <workItem from="1728097989378" duration="290000" />
       <workItem from="1728136452775" duration="2082000" />
       <workItem from="1728265261574" duration="5170000" />
-      <workItem from="1728274868428" duration="680000" />
+      <workItem from="1728286289243" duration="5000" />
+      <workItem from="1728287993945" duration="2859000" />
     </task>
     <servers />
   </component>
