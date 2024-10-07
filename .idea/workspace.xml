@@ -14,19 +14,29 @@
       <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/joybalance_pink.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/kidsport_black.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/kidsport_yellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/tải xuống (8).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/tải xuống (4).jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/xyz_green.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/ogani-master/img/categories/xyz_yellow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/TEST/NhanVien.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/TEST/NhanVienControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/TEST/NhanVienRepoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/controller/CustommerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/controller/CustommerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChatLieuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChatLieuRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChucVuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ChucVuRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/DanhGiaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/DanhGiaRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangChiTietRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangChiTietRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/GioHangRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonChiTietRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonChiTietRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonHistoryRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonHistoryRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/HoaDonRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhachHangRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhachHangRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhuyenMaiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KhuyenMaiRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KichCoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/KichCoRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/LoaiSanPhamRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/LoaiSanPhamRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/MauSacRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/MauSacRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/NhanVienRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/NhanVienRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/PhuongThucThanhToanRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/PhuongThucThanhToanRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamChiTietRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamChiTietRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/SanPhamRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThongTinVanChuyenRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThongTinVanChuyenRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThuongHieuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/repository/ThuongHieuRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/service/QuanLySanPhamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/java/com/example/demo/service/QuanLySanPhamService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/application.properties" afterDir="false" />
@@ -85,16 +95,19 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DATN\DuAnTotNghiep\AutoKid\src\main\resources\templates\ogani-master\img\hero" />
+      <recent name="D:\DATN\DuAnTotNghiep\AutoKid\src\main\resources\templates\ogani-master\img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
