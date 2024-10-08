@@ -36,7 +36,7 @@
 <div class="humberger__menu__overlay"></div>
 <div class="humberger__menu__wrapper">
     <div class="humberger__menu__logo">
-        <a href="#"><img src="img/logo.png" alt="" /></a>
+        <a th:href="@{http://localhost:8080/autokid/home}"><img src="img/logo.png" alt="" /></a>
     </div>
     <div class="humberger__menu__cart">
         <ul>
@@ -54,10 +54,10 @@
     <div class="humberger__menu__widget">
         <div class="header__top__right__language">
             <img src="img/language.png" alt="" />
-            <div>VietNam</div>
+            <div>Tiếng Việt</div>
             <span class="arrow_carrot-down"></span>
             <ul>
-                <li><a href="#">VietNam</a></li>
+                <li><a href="#">Tiếng Việt</a></li>
             </ul>
         </div>
         <div class="header__top__right__auth">
@@ -66,17 +66,17 @@
     </div>
     <nav class="humberger__menu__nav mobile-menu">
         <ul>
-            <li class="active"><a href="./index.html">Trang chủ</a></li>
-            <li><a href="./shop-grid.html">Cửa hàng</a></li>
+            <li class="active"><a th:href="@{http://localhost:8080/autokid/home}">Trang chủ</a></li>
+            <li><a th:href="@{http://localhost:8080/autokid/shop}">Cửa hàng</a></li>
             <li>
                 <a href="#">Trang</a>
                 <ul class="header__menu__dropdown">
-                    <li><a href="./shop-details.html">Cửa hàng chi tiết</a></li>
-                    <li><a href="./shoping-cart.html">Giỏ hàng</a></li>
-                    <li><a href="./checkout.html">Thanh toán</a></li>
+                    <li><a th:href="@{http://localhost:8080/autokid/shop-detail}">Cửa hàng chi tiết</a></li>
+                    <li><a th:href="@{http://localhost:8080/autokid/shoping-cart}">Giỏ hàng</a></li>
+                    <li><a th:href="@{http://localhost:8080/autokid/checkout}">Thanh toán</a></li>
                 </ul>
             </li>
-            <li><a href="./contact.html">Liên hệ</a></li>
+            <li><a th:href="@{http://localhost:8080/autokid/contact}">Liên hệ</a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
@@ -118,10 +118,10 @@
                         </div>
                         <div class="header__top__right__language">
                             <img src="img/language.png" alt="" />
-                            <div>VietNam</div>
+                            <div>Tiếng Việt</div>
                             <span class="arrow_carrot-down"></span>
                             <ul>
-                                <li><a href="#">VietNam</a></li>
+                                <li><a href="#">Tiếng Việt</a></li>
                             </ul>
                         </div>
                         <div class="header__top__right__auth">
@@ -136,23 +136,23 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="header__logo">
-                    <a href="./index.html"><img src="img/logo.png" style="width: 120px; height: 120px" alt="" /></a>
+                    <a th:href="@{http://localhost:8080/autokid/home}"><img src="img/logo.png" style="width: 120px; height: 120px" alt="" /></a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <nav class="header__menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Trang chủ</a></li>
+                        <li class="active"><a th:href="@{http://localhost:8080/autokid/home}">Trang chủ</a></li>
                         <li><a href="./shop-grid.html">Cửa hàng</a></li>
                         <li>
                             <a href="#">Trang</a>
                             <ul class="header__menu__dropdown">
-                                <li><a href="./shop-details.html">Cửa hàng chi tiết</a></li>
-                                <li><a href="./shoping-cart.html">Giỏ hàng</a></li>
-                                <li><a href="./checkout.html">Thanh toán</a></li>
+                                <li><a th:href="@{http://localhost:8080/autokid/shop-detail}">Cửa hàng chi tiết</a></li>
+                                <li><a th:href="@{http://localhost:8080/autokid/shoping-cart}">Giỏ hàng</a></li>
+                                <li><a th:href="@{http://localhost:8080/autokid/checkout}">Thanh toán</a></li>
                             </ul>
                         </li>
-                        <li><a href="./contact.html">Liên hệ</a></li>
+                        <li><a th:href="@{http://localhost:8080/autokid/contact}">Liên hệ</a></li>
                     </ul>
                 </nav>
             </div>
@@ -236,7 +236,7 @@
         <div class="row">
             <div class="categories__slider owl-carousel">
                 <div th:each="sanpham : ${sanpham}" class="col-lg-3" >
-                    <a href="http://localhost:8080/blog">
+                    <a th:href="@{http://localhost:8080/autokid/shop-detail}">
                         <div
                                 class="categories__item"
                                 th:style="'background-image: url(\'/img/categories/' + ${sanpham.anh} + '\'); background-repeat: no-repeat;'"
@@ -698,7 +698,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer__about">
                     <div class="footer__about__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+                        <a th:href="@{http://localhost:8080/autokid/home}"><img src="img/logo.png" alt="" /></a>
                     </div>
                     <ul>
                         <li>Địa chỉ: 60-49 Road 11378 New York</li>

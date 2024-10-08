@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8121d363-0fbb-4f30-ba89-68eca7b0eb79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/shop-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/shop-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/shop-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoKid/src/main/resources/templates/autokid/shop-grid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +104,7 @@
       <workItem from="1728136452775" duration="2082000" />
       <workItem from="1728265261574" duration="5170000" />
       <workItem from="1728286289243" duration="5000" />
-      <workItem from="1728287993945" duration="2859000" />
+      <workItem from="1728287993945" duration="8871000" />
     </task>
     <servers />
   </component>
